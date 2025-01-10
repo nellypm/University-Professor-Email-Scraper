@@ -9,7 +9,7 @@ def extract_emails_with_selenium(output_file):
         url = input("Enter the URL of the page to scrape: ")
         
         # Update the path to ChromeDriver
-        driver_path = "/Users/nelsonpompigne-mognard/Documents/Drivers/chromedriver"  # macOS/Linux
+        driver_path = "ADD DRIVER PATH"  # macOS/Linux
         service = Service(driver_path)
         driver = webdriver.Chrome(service=service)
         
